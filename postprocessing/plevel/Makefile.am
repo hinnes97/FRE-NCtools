@@ -24,7 +24,7 @@
 MAKEFLAGS = -j 1
 
 bin_PROGRAMS = PLEV.exe PLEV.r4.exe
-dist_bin_SCRIPTS = plevel.sh
+dist_bin_SCRIPTS = plevel.bash
 
 AM_FCFLAGS =  $(NETCDF_FCFLAGS)
 LDADD = $(NETCDF_FCLDFLAGS) $(NETCDF_FCLIBS) $(RPATH_FLAGS)

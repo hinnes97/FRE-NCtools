@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 #***********************************************************************
 #                   GNU Lesser General Public License
@@ -212,6 +212,8 @@ done
 
    echo " /" >> $namelist
 
+   ulimit -s unlimited
+   
 $executable
 
 #rm -f $namelist
