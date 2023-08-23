@@ -174,7 +174,7 @@ i=0
 for prs in $plevs;
 do
     let "i=$i+1"
-    echo "    pout($i) =  $prs.," >> $namelist
+    echo "    pout($i) =  $prs," >> $namelist
 done
 
 # more namelist values
